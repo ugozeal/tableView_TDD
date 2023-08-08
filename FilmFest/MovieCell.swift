@@ -20,5 +20,10 @@ class MovieCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func configMovieCell(movie: Movie) {
+        self.textLabel?.text = movie.title
+        self.detailTextLabel?.text = movie.releaseDate
+    }
 
 }
