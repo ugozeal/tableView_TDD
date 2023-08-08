@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8FD54624200D1A960046A5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD54623200D1A960046A5C4 /* AppDelegate.swift */; };
-		8FD54626200D1A960046A5C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD54625200D1A960046A5C4 /* ViewController.swift */; };
+		8FD54626200D1A960046A5C4 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD54625200D1A960046A5C4 /* LibraryViewController.swift */; };
 		8FD54629200D1A960046A5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD54627200D1A960046A5C4 /* Main.storyboard */; };
 		8FD5462B200D1A960046A5C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD5462A200D1A960046A5C4 /* Assets.xcassets */; };
 		8FD5462E200D1A960046A5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD5462C200D1A960046A5C4 /* LaunchScreen.storyboard */; };
-		8FD54639200D1A960046A5C4 /* FilmFestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD54638200D1A960046A5C4 /* FilmFestTests.swift */; };
+		9E034BEF2A82405D0046DE82 /* MovieStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E034BEE2A82405D0046DE82 /* MovieStructTests.swift */; };
+		9E034BF12A8241190046DE82 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E034BF02A8241190046DE82 /* Movie.swift */; };
+		9E034BF72A8243A10046DE82 /* MovieManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E034BF62A8243A10046DE82 /* MovieManagerTests.swift */; };
+		9E034BF92A8245D00046DE82 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E034BF82A8245D00046DE82 /* MovieManager.swift */; };
+		9E407EC72A82617D00B0757B /* LibraruViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E407EC62A82617D00B0757B /* LibraruViewControllerTests.swift */; };
+		9E407ECA2A82649400B0757B /* MovieLibraryDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E407EC92A82649400B0757B /* MovieLibraryDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +33,19 @@
 /* Begin PBXFileReference section */
 		8FD54620200D1A960046A5C4 /* FilmFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD54623200D1A960046A5C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FD54625200D1A960046A5C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FD54625200D1A960046A5C4 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		8FD54628200D1A960046A5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FD5462A200D1A960046A5C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FD5462D200D1A960046A5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FD5462F200D1A960046A5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FD54634200D1A960046A5C4 /* FilmFestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmFestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FD54638200D1A960046A5C4 /* FilmFestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmFestTests.swift; sourceTree = "<group>"; };
 		8FD5463A200D1A960046A5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E034BEE2A82405D0046DE82 /* MovieStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStructTests.swift; sourceTree = "<group>"; };
+		9E034BF02A8241190046DE82 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9E034BF62A8243A10046DE82 /* MovieManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManagerTests.swift; sourceTree = "<group>"; };
+		9E034BF82A8245D00046DE82 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		9E407EC62A82617D00B0757B /* LibraruViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraruViewControllerTests.swift; sourceTree = "<group>"; };
+		9E407EC92A82649400B0757B /* MovieLibraryDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLibraryDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,10 @@
 		8FD54622200D1A960046A5C4 /* FilmFest */ = {
 			isa = PBXGroup;
 			children = (
+				9E407EC82A82647100B0757B /* Data Service */,
+				9E034BF32A8243080046DE82 /* Controllers */,
+				9E034BF22A8242F90046DE82 /* Models */,
 				8FD54623200D1A960046A5C4 /* AppDelegate.swift */,
-				8FD54625200D1A960046A5C4 /* ViewController.swift */,
 				8FD54627200D1A960046A5C4 /* Main.storyboard */,
 				8FD5462A200D1A960046A5C4 /* Assets.xcassets */,
 				8FD5462C200D1A960046A5C4 /* LaunchScreen.storyboard */,
@@ -90,10 +102,53 @@
 		8FD54637200D1A960046A5C4 /* FilmFestTests */ = {
 			isa = PBXGroup;
 			children = (
-				8FD54638200D1A960046A5C4 /* FilmFestTests.swift */,
+				9E034BF52A8243260046DE82 /* TestControllers */,
+				9E034BF42A82431B0046DE82 /* TestModels */,
 				8FD5463A200D1A960046A5C4 /* Info.plist */,
 			);
 			path = FilmFestTests;
+			sourceTree = "<group>";
+		};
+		9E034BF22A8242F90046DE82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E034BF02A8241190046DE82 /* Movie.swift */,
+				9E034BF82A8245D00046DE82 /* MovieManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E034BF32A8243080046DE82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FD54625200D1A960046A5C4 /* LibraryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9E034BF42A82431B0046DE82 /* TestModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E034BEE2A82405D0046DE82 /* MovieStructTests.swift */,
+				9E034BF62A8243A10046DE82 /* MovieManagerTests.swift */,
+			);
+			path = TestModels;
+			sourceTree = "<group>";
+		};
+		9E034BF52A8243260046DE82 /* TestControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E407EC62A82617D00B0757B /* LibraruViewControllerTests.swift */,
+			);
+			path = TestControllers;
+			sourceTree = "<group>";
+		};
+		9E407EC82A82647100B0757B /* Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				9E407EC92A82649400B0757B /* MovieLibraryDataService.swift */,
+			);
+			path = "Data Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +201,12 @@
 				TargetAttributes = {
 					8FD5461F200D1A960046A5C4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 					};
 					8FD54633200D1A960046A5C4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8FD5461F200D1A960046A5C4;
 					};
@@ -199,8 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FD54626200D1A960046A5C4 /* ViewController.swift in Sources */,
+				9E034BF92A8245D00046DE82 /* MovieManager.swift in Sources */,
+				8FD54626200D1A960046A5C4 /* LibraryViewController.swift in Sources */,
 				8FD54624200D1A960046A5C4 /* AppDelegate.swift in Sources */,
+				9E034BF12A8241190046DE82 /* Movie.swift in Sources */,
+				9E407ECA2A82649400B0757B /* MovieLibraryDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FD54639200D1A960046A5C4 /* FilmFestTests.swift in Sources */,
+				9E034BF72A8243A10046DE82 /* MovieManagerTests.swift in Sources */,
+				9E034BEF2A82405D0046DE82 /* MovieStructTests.swift in Sources */,
+				9E407EC72A82617D00B0757B /* LibraruViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HarrisonFerrone.FilmFest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -374,7 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HarrisonFerrone.FilmFest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -384,13 +446,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7864Y9RXSY;
 				INFOPLIST_FILE = FilmFestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HarrisonFerrone.FilmFestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmFest.app/FilmFest";
 			};
@@ -401,13 +465,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7864Y9RXSY;
 				INFOPLIST_FILE = FilmFestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HarrisonFerrone.FilmFestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmFest.app/FilmFest";
 			};
