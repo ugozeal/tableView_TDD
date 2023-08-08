@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "198CE0ED-96AF-44FA-87E1-33699C1AFB4B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FilmFest.xcodeproj",
+      "identifier" : "8FD5461F200D1A960046A5C4",
+      "name" : "FilmFest"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FilmFest.xcodeproj",
+        "identifier" : "8FD54633200D1A960046A5C4",
+        "name" : "FilmFestTests"
+      }
+    }
+  ],
+  "version" : 1
+}
